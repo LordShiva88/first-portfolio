@@ -1,0 +1,44 @@
+/* Adding common shard style */
+body{
+    font-family: 'lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.orange{
+    color: #FD6E0A;
+}
+.btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 15px 35px;
+}
+
+
+/* Nav Style Start Here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
