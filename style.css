@@ -147,3 +147,27 @@ hr{
 }
 
 /* footer section start here */
+
+footer{
+    background-color: #fff8f3;
+    display: flex;
+    padding: 130px 200px;
+    gap: 100px;
+}
+.footer-colum{
+    width: 50%;
+
+}
+.footer-title{
+    margin-bottom: 50px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+.social-link{
+    margin-top: 50px;
+}
